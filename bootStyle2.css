@@ -1,0 +1,45 @@
+/*bootStyle2.css*/
+*{
+	border:1px solid black;
+}
+.mainrow1{
+	height:170px;
+}
+.col-4{
+	background-color:yellow;
+}
+.col-8{
+	background-color:silver;
+}
+.col-6{
+	background-color:green;
+}
+.c1{
+	background-color:pink;
+}
+.c2{
+	background-color:brown;
+}
+/*.mainrow2{
+	height:400px;
+}*/
+.r1{
+	background-color:azure;
+	height:260px;
+}
+.c3{
+	height:100px;
+	background-color:aqua;
+}
+.r3{
+	height:121px;
+	background-color:red;
+}
+.r4{
+	height:121px;
+	background-color:olive;
+}
+.r5{
+	height:121px;
+	background-color:gold;
+}
