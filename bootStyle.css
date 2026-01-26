@@ -1,0 +1,13 @@
+/*bootStyle.css*/
+.heading{
+	border:1px soild black;
+	height:300px;
+	text-align:center;
+	padding:80px;
+	background-color:azure;
+}
+.col-sm-4{
+	border:1px solid white;
+	height:300px;
+	padding:80px;
+}
