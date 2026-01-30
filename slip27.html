@@ -1,0 +1,104 @@
+<!--slip27.html-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            font-size: 90;
+            color: brown;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .form-box {
+            background-color: DarkCyan;
+            width: 450px;
+            padding: 20px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .buttons input {
+            width: 80px;
+            padding: 5px;
+            margin: 5px;
+        }
+	.pr {
+		display:flex;
+		
+	}
+	.pr input{
+		
+	}
+        .submit {
+            background-color: green;
+            color: white;
+        }
+
+        .clear {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h2><b>Project Management</b></h2>
+
+    <div class="form-box">
+        <form>
+            <label>Project Name</label>
+            <input type="text" placeholder="project name">
+
+            <label>Assigned to</label>
+            <select>
+                <option>Er Merry Petison</option>
+                <option>David wanson</option>
+            </select>
+
+            <label>Start Date</label>
+            <input type="date">
+
+            <label>End Date</label>
+            <input type="date">
+            
+            <br><br>
+		<div class="pr">
+    		Priority
+           <input type="radio" name="priority">High
+            <input type="radio" name="priority">Average
+            <input type="radio" name="priority">Low
+		</div>
+		
+            <label>Description</label>
+            <textarea rows="3"></textarea>
+
+            <div class="buttons">
+                <input type="submit" value="Submit" class="submit">
+                <input type="reset" value="Clear" class="clear">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
