@@ -1,0 +1,56 @@
+<!--slip25.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model Property</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 60px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .outer-box {
+            background-color: gold;
+            border: 2px solid black;
+            padding: 50px;
+            width: 400px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .inner-box {
+            background-color: maroon;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .text-box {
+            background-color: white;
+            padding: 10px;
+            margin: 10px auto;
+            width: fit-content;
+            border: 1px solid gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Box Model Property</h2>
+
+    <div class="outer-box">
+        <div class="inner-box">
+            <div class="text-box">T.Y.B.Sc(Comp.Sci)</div>
+            <div class="text-box">Academic Year 2021-22</div>
+        </div>
+    </div>
+
+</body>
+</html>
