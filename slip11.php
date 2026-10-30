@@ -1,6 +1,7 @@
 <!--slip11.php-->
 <?php
 // Define the associative array
+//key-value pairs
 $people = array("Sagar" => "31", "Vicky" => "41", "Leena" => "39", "Ramesh" => "40");
 
 echo "Original Array:\n";
