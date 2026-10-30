@@ -3,4 +3,3 @@ file2.txt
 102,Mouse,5,25.50
 103,Keyboard,3,75.00
 104,Monitor,1,300.00
-105,Webcam,4,45.99
