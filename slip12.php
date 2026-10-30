@@ -28,6 +28,7 @@
    		 "c" => 3,
    		 "f" => 6
 	];
+//switch case
 	
 	switch($ch){
 		case 'a':echo "1. Split into chunks:\n";
